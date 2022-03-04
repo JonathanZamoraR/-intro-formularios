@@ -1,0 +1,133 @@
+body{
+    background-color: #EEEEEE;
+    display: flex; /* para controlar a los hijos */
+    flex-direction: column;
+    padding: 0px; /* del elemento hacia dentro */
+    margin: 0px; /* del elemento hacia fuera */
+}
+
+.navbar{
+    background-color: #1e83c0;
+    display: flex; /* para controlar a los hijos */
+    align-items: center;
+    padding: 15px 0px 15px 100px; 
+/*     padding-top: 10px;
+       padding-bottom: 10px; */
+}
+
+/* .logo{
+    width: 300px;
+    height: 150px;
+} */
+
+.main-page{
+    background-color: #f9f9f8;
+    padding: 80px 0px 118px 0px;
+    display: flex; /* para controlar a los hijos */
+    justify-content: center;
+}
+
+section{
+    background-color: white;
+    border: 1px solid #EFEFEE;
+    border-radius: 5px;
+    width: 20em;
+    padding: 20px;
+}
+
+.title-form{
+    /* margin: 0px 0px 20px 0px; */
+    margin-bottom: 20px;
+    display: flex; /* para controlar a los hijos */
+    justify-content: space-between;
+}
+
+.title-form span{
+    font-size: 1.25em;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.title-form a{
+    color: #9A9FA8;
+    
+    text-decoration: none;
+    font-family: "karla", "helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+.code-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-form .code{
+    box-sizing: border-box;
+    width: 100%;
+    color: #666;
+    font-size: 16px;
+    padding: 0.7em;
+    background-color: #E7E7E7;
+    border: 1.5px solid #dddddd;
+    display: flex;
+}
+
+.reg-form span{
+    margin-top: 0.4em;;
+    margin-bottom: 0.6em;
+    color: #a0a09d;
+    font-size: 0.7em;
+    display: flex;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif
+}
+
+
+
+.reg-form input[type=submit] {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0.7em;
+    background-color: #5fb8d5;
+    border: 1.5px solid #dddddd;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 123px;
+    padding-right: 123px;
+    
+}
+
+input[type="submit" i] {
+
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #EEEEEE;
+    padding-top: 4em;
+    padding-bottom: 11.5em;
+    padding-left: 16em;
+    border-top: 1.5px solid #dedfeb;
+    color: #556370;
+    height: 100%;
+    font-size: 12px;
+}
+
+footer div span{
+    color: #556370;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #556370;
+    text-decoration: none;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
